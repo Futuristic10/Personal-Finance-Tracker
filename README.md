@@ -55,25 +55,35 @@ TrackMySpend
 
 Clone the repository
 
+```bash
 git clone https://github.com/Futuristic10/Personal-Finance-Tracker.git
+```
 
 Navigate to the project folder
 
+```bash
 cd Personal-Finance-Tracker
+```
 
 Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the application
 
+```bash
 python app.py
+```
 
 ## Running with Docker (MySQL Database)
 
 Start the MySQL container:
 
+```bash
 docker-compose up -d
+```
 
 This will start a MySQL container with the database `finance_tracker`.
 
